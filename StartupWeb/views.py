@@ -7,3 +7,6 @@ class Main(APIView):
         return render(request, 'startupweb/index.html')
 
 
+class Test(APIView):
+    def get(self, request):
+        return render(request, 'startupweb/test.html')
